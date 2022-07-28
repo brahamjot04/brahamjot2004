@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url('glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.opacity
+{
+    /* background: rgba(177, 174, 174, 0.5); */
+    margin: 20px 20px 20px 20px;
+    margin-left: 26vw;
+    margin-top: 13vh;
+    padding: 10px 30px 10px 30px;
+    height: 480px;
+    width: 600px;
+	border-radius: 8px; 
+}
+h1
+{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 800px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(218, 32, 32);
+}
+label
+{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+input[type="text"],input[type="email"]
+{
+    border:none; /* */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.644);
+    padding: 6px 5px 6px 5px;
+    width:100%;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0);
+}
+/* input[type="email"]:hover
+{
+    background-color: rgba(177, 174, 174, 0.5);
+} */
+/* input[type="text"]:hover
+{
+    background-color: rgba(177, 174, 174, 0.5);
+} */
+textarea
+{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.644);
+    padding: 5px 5px 5px 5px;
+    width:100%;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0);
+}
+#submit
+{
+	text-align: center;
+	border: 1px solid rgb(0,0,0);
+	padding: 5px 5px 5px 5px;
+	border-radius: 3px;
+	background-color: rgb(33,167,62);
+    display: inline-block;
+    text-decoration: none;
+	height:45px;
+	width:100px;
+	color: #ffffff;
+	font-size:17px;
+	margin-left: 240px;
+    cursor: pointer;
+}
+#submit:hover
+{
+ background-color: rgba(33, 167, 62, 0.664);
+}
+::placeholder
+{
+    color: rgba(73, 73, 73, 0.884);
+}
+hr
+{
+    color: black;
+    width: auto;    
+}

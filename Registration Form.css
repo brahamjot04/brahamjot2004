@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url('glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.opacity
+{
+    background: rgba(177, 174, 174, 0.5);
+    margin: 20px 20px 20px 20px;
+    margin-left: 350px;
+    padding: 10px 30px 10px 30px;
+    height: 1420px;
+    width: 600px;
+	border-radius: 8px; 
+}
+h1
+{
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 800px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(218, 32, 32);
+}
+label
+{
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+}
+input[type="text"],input[type="number"]
+{
+    border:1px solid whitesmoke;
+    padding: 6px 5px 6px 5px;
+    width:49%;
+    border-radius: 2px;
+}
+input[type="date"]
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    width:97.5%;
+    border-radius: 2px;
+}
+input[type="email"]
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    width:98%;
+    border-radius: 2px;
+}
+input[type="radio"]
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+}
+input:hover,select:hover,textarea:hover
+{
+    background-color: whitesmoke;
+}
+::placeholder
+{
+    color: rgba(147, 52, 236, 0.493);
+}
+select
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    width:48%;
+    border-radius: 2px;
+}
+textarea
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    width:98%;
+    border-radius: 2px;
+}
+#district,#state,#nation,#crse,#category,#quali,#perc
+{
+    border:1px solid whitesmoke;
+    padding: 5px 5px 5px 5px;
+    width:98%;
+    border-radius: 2px;
+}
+#reset
+{
+	align-content:center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid rgb(0,0,0);
+	padding: 5px 5px 5px 5px;
+	border-radius: 3px;
+	background-color: rgb(194,18,18);
+	height:45px;
+	width:230px;
+	color: #ffffff;
+	font-size:17px;
+    cursor: pointer;
+}
+#submit
+{
+	align-content:center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid rgb(0,0,0);
+	padding: 5px 5px 5px 5px;
+	border-radius: 3px;
+	background-color: rgb(33,167,62);
+	height:45px;
+	width:230px;
+	color: #ffffff;
+	font-size:17px;
+	margin-left: 122px;
+    cursor: pointer;
+}
+#submit:hover
+{
+    background-color: rgba(33, 167, 62, 0.664);
+}
+#reset:hover
+{
+    background-color: rgba(194, 18, 18, 0.767);
+}
+a:link
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+}
+.link
+{
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    /* background: rgba(177, 174, 174, 0.5); */
+    margin: 20px 20px 20px 20px;
+    margin-left: 23%;
+    padding: 10px 30px 10px 30px;
+    height: 30px;
+    width: 600px;
+	border-radius: 8px; 
+}
+hr
+{
+    color: whitesmoke;
+}

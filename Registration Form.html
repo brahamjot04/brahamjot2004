@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="Registration Form.css">
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+           /* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+           @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="opacity">
+        <h1>REGISTRATION FORM</h1>
+        <br>
+        <form action="get">
+            <label action="get"for="SName">Student Name: *</label>
+            <br>
+            <input type="text" id="SName" name="SFName" placeholder="First Name" required>
+            <input type="text" id="SName" name="SLName" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label for="FName">Father Name: *</label>
+            <br>
+            <input type="text" id="FName" name="SFName" placeholder="First Name" required>
+            <input type="text" id="FName" name="SLName" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label for="MName">Mother Name: *</label>
+            <br>
+            <input type="text" id="MName" name="SFName" placeholder="First Name" required>
+            <input type="text" id="MName" name="SLName" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label for="Gender">Gender: *</label>
+            <br>
+            <input type="radio" name="male"> Male
+            <br>
+            <input type="radio" name="female"> Female
+            <br>
+            <input type="radio" name="other"> Other           
+            <br>
+            <br>
+            <label for="DOB">Date Of Birth: *</label>
+            <br>
+            <input type="date" id="DOB" name="DOB" required>
+            <br>
+            <br>
+            <label for="contact">Contact No: *</label>
+            <br>           
+            <select type="text" id="contact" required>
+                <option value="null">---Select Here---</option>
+                <option value="India">India(+91)</option>
+                <option value="Afghanistan">Afghanistan(+93)</option>
+                <option value="Pak">Pakistan(+92)</option>
+                <option value="Aus">Austraila(+61)</option>
+                <option value="US">United States(+1)</option>
+                <option value="UK">United Kingdom(+44)</option>
+                <option value="UKR">Ukraine(+380)</option>
+                <option value="BEL">Belgium(+32)</option>
+                <option value="CAN">Canada(+1)</option>
+                <option value="CHN">China(+86)</option>
+                <option value="MEX">Mexico(+52)</option>
+            </select>
+            <input type="number" id="phone" required>
+            <br>
+            <br>
+            <label for="acontact">Alternate Contact No: *</label><br>
+            <select type="text" id="acontact" required>
+                <option value="null">---Select Here---</option>
+                <option value="India">India(+91)</option>
+                <option value="Afghanistan">Afghanistan(+93)</option>
+                <option value="Pak">Pakistan(+92)</option>
+                <option value="Aus">Austraila(+61)</option>
+                <option value="US">United States(+1)</option>
+                <option value="UK">United Kingdom(+44)</option>
+                <option value="UKR">Ukraine(+380)</option>
+                <option value="BEL">Belgium(+32)</option>
+                <option value="CAN">Canada(+1)</option>
+                <option value="CHN">China(+86)</option>
+                <option value="MEX">Mexico(+52)</option>
+            </select>
+            <input type="number" id="acontact" required>
+            <br>
+            <br>
+            <span class="dis">
+                <label for="district">District: *</label>
+                <br>
+                <input type="text" id="district" required>
+                <br>
+                <br>
+                <label for="state">State: *</label>
+                <br>
+                <input type="text" id="state" required>
+                <br>
+                <br>
+                <label for="nation">Nationality: *</label>
+                <br>
+                <input type="text" id="nation" required>
+            </span>
+            <br>
+            <br>
+            <label for="email">Email ID: *</label>
+            <br>
+            <input type="email" id="email" placeholder="abc@gmail.com" required>
+            <br>
+            <br>
+            <label for="addr">Address: *</label>
+            <br>
+            <textarea name="addr" id="addr" cols="50" rows="10" required></textarea>
+            <br>
+            <br>
+            <label for="crse">Course: *</label>
+            <br>
+            <select name="course" id="crse" required>
+                <option value="null">---Select Here---</option>
+                <option value="CSE">CSE(Computer Science Engineering)</option>
+                <option value="ECE">ECE(Electronics & Communication Engineering</option>
+                <option value="CE">CE(Civil Engineering)</option>
+                <option value="ME">ME(Mechanical Engineering</option>
+                <option value="EE">EE(Electrical Engineering)</option>
+                <option value="AE">AE(Automobile Engineering)</option>
+            </select>
+            <br>
+            <br>
+            <label for="category">Category: *</label>
+            <br>
+            <select name="category" id="category" required>
+                <option value="null">---Select Here---</option>
+                <option value="G">General</option>
+                <option value="SC">Scheduled Castes(SC)</option>
+                <option value="ST">Scheduled Tribes(ST)</option>
+                <option value="OBC">Other Backward Class(OBC)</option>
+                <option value="EBC">Economically Backward Class(EBC)</option>
+                <option value="EWS">Economically Weaker Section(EWS)</option>
+            </select>
+            <br>
+            <br>
+            <label for="quali">Qualification: *</label>
+            <br>
+            <input type="text" id="quali" required>
+            <br>
+            <br>
+            <label for="perc">Percentage: *</label>
+            <br>
+            <input type="number" id="perc" required>
+            <br>
+            <br>
+            <input type="button" value="Reset" id="reset">
+            <input type="button" value="Submit" id="submit">
+            </form>
+            <br>
+            <br>
+            <br>
+            <span class="link"><a href="Contact Us.html" target="_blank">Click Here For Any Queries</a></span>
+            <br>
+            <br>
+        </div>
+    </body>
+</html>
